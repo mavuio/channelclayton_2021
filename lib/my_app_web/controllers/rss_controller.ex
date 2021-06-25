@@ -20,20 +20,25 @@ defmodule MyAppWeb.RssController do
     |> render("general_feed.xml", [])
   end
 
-  def episodes_rss(conn, _params) do
+  def episodes_rss(conn, params) do
     conn
     |> put_resp_content_type("text/xml")
     |> put_root_layout(false)
-    |> render("episodes_rss.xml", get_assigns)
+    |> render("episodes_rss.xml", get_assigns(params))
   end
 
-  def get_assigns() do
+  def get_assigns(params) do
     %{
-      feed_url: &feed_url/1
+      feed_url: &feed_url/1,
+      version_str: get_version_str(params["version"])
     }
   end
 
-  def feed_url(t) do
+  def get_version_str(nil), do: ""
+
+  def get_version_str(version), do: " - Version #{version}"
+
+  def feed_url(_t) do
     "https://channelclayton.mavu.io/episodes.rss"
   end
 

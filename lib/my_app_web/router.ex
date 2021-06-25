@@ -41,6 +41,7 @@ defmodule MyAppWeb.Router do
 
     get "/general_feed.xml", RssController, :general_feed_xml
     get "/episodes.rss", RssController, :episodes_rss
+    get "/version/:version/episodes.rss", RssController, :episodes_rss
   end
 
   # Other scopes may use custom stacks.
