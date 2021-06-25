@@ -1,6 +1,8 @@
 defmodule MyAppWeb.FrontendHelpers do
   use Phoenix.HTML
 
+  import Pit
+
   def body_classes(conn) do
     "c-#{Phoenix.Controller.controller_module(conn) |> Phoenix.Naming.resource_name("Controller")} a-#{Phoenix.Controller.action_name(conn)}"
   end
@@ -21,6 +23,14 @@ defmodule MyAppWeb.FrontendHelpers do
 
   def tw_class(:narrow_container, _), do: "max-w-md  mx-auto"
   def tw_class(_, _), do: ""
+
+  def rss_date(utc_date) do
+    utc_date
+    |> local_date()
+    |> DateTime.from_naive("Europe/Vienna")
+    |> pit(date <- {:ok, date})
+    |> Calendar.strftime("%Y-%m-%dT%H:%M:%S%z")
+  end
 
   defdelegate local_date(utc_date), to: MyAppWeb.MyHelpers
 

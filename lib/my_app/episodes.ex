@@ -19,6 +19,11 @@ defmodule MyApp.Episodes do
 
   def get_episode(_), do: nil
 
+  def get_episodes() do
+    get_query(nil, nil)
+    |> Repo.all()
+  end
+
   def get_episode_config(episode_or_id)
       when is_integer(episode_or_id) or is_struct(episode_or_id) do
     episode = get_episode(episode_or_id)
@@ -58,5 +63,9 @@ defmodule MyApp.Episodes do
       publicationDate: "2020-06-19T12:02:00+02:00",
       version: 5
     }
+  end
+
+  def get_latest_change_date() do
+    Repo.aggregate(Episode, :max, :updated_at)
   end
 end

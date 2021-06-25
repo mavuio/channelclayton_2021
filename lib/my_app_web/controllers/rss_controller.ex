@@ -20,7 +20,7 @@ defmodule MyAppWeb.RssController do
     |> render("general_feed.xml", [])
   end
 
-  def episodes_rss_xml(conn, _params) do
+  def episodes_rss(conn, _params) do
     conn
     |> put_resp_content_type("text/xml")
     |> put_root_layout(false)
