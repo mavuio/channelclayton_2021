@@ -9,8 +9,6 @@
         <atom:link href="<%= @feed_url.(:self) %>" rel="self" type="application/rss+xml" title="Episodes RSS-Feed" />
         <atom:link href="<%= @feed_url.(:first) %>" rel="first" type="application/rss+xml" />
         <atom:link href="<%= @feed_url.(:last) %>" rel="last" type="application/rss+xml" />
-
-
         <description><%= snip "de","/feed/general.description_plaintext" , format_as: "plaintext" do %>
             Channel Clayton stellt heuer aufs Mithören um: In verschiedenen Episoden des Podcasts berichten
             Autor*innen über die Thesen und die Ergebnisse ihrer wissenschaftlichen Abschlussarbeiten, vorwiegend des
@@ -47,7 +45,7 @@
         </image>
 
         <itunes:category text="Arts" />
-        <%= for episode <- MyApp.Episodes.get_episodes()  do %>
+        <%= for episode <- MyApp.Episodes.get_episodes() |> Enum.filter(&MavuUtils.present?(&1.duration))  do %>
         <item>
             <title>Episode <%=  episode.num %> - <%= episode.title %> </title>
             <link><%= episode.link %></link>
@@ -62,9 +60,10 @@
 
             <enclosure url="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode<%= episode.num %>.mp3"
                 length="1234567" type="audio/mpeg" />
+            <itunes:title>Episode <%=  episode.num %> - <%= episode.title %> </itunes:title>
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle><%= episode.subtitle %></itunes:subtitle>
-            <itunes:summary></itunes:summary>
+            <itunes:subtitle>Channel Clayton Episode <%=  episode.num %></itunes:subtitle>
+            <itunes:summary>Channel Clayton Episode <%=  episode.num %></itunes:summary>
             <itunes:author><%= snip "de","/feed/general.author_textline" %></itunes:author>
             <itunes:explicit>no</itunes:explicit>
             <itunes:duration><%= episode.duration %></itunes:duration>

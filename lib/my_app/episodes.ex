@@ -8,6 +8,7 @@ defmodule MyApp.Episodes do
 
   def get_query(_params, _context) do
     Episode
+    |> Ecto.Query.order_by(desc: :num)
     |> Ecto.Query.from()
   end
 
