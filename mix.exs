@@ -60,7 +60,7 @@ defmodule MyApp.MixProject do
       {:mavu_form, github: "mavuio/mavu_form", tag: "0.1.2"},
       {:mavu_content, github: "mavuio/mavu_content", tag: "0.1.1"},
       {:mavu_be_user_ui, github: "mavuio/mavu_be_user_ui", tag: "0.1.1"},
-      {:mavu_snippets_ui, github: "mavuio/mavu_snippets_ui", tag: "0.1.2"},
+      {:mavu_snippets_ui, github: "mavuio/mavu_snippets_ui", tag: "0.1.3"},
       {:mavu_list, "~> 0.1.9"},
       {:heroicons, "~> 0.1.0"},
       {:exconstructor, "~> 1.1"},
