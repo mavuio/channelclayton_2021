@@ -8,6 +8,7 @@ defmodule MyApp.Episode do
     field(:title, :string)
     field(:subtitle, :string)
     field(:summary, :string)
+    field(:duration, :string)
     timestamps()
   end
 
@@ -21,8 +22,10 @@ defmodule MyApp.Episode do
       :season_id,
       :title,
       :subtitle,
-      :summary
+      :summary,
+      :duration
     ])
+    |> validate_format(:duration, ~r/\d\d:\d\d:\d\d$/, message: "must be in format HH:MM:SS")
 
     # |> validate_required([
     #   :name
