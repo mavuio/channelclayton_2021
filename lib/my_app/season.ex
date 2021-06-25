@@ -23,8 +23,7 @@ defmodule MyApp.Season do
       :subtitle,
       :link,
       :poster,
-      :summary,
-      :season_id
+      :summary
     ])
 
     # |> validate_required([

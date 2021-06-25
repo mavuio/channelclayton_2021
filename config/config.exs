@@ -31,6 +31,10 @@ config :ex_cldr,
   default_backend: MyApp.Cldr,
   json_library: Jason
 
+# config :phoenix, :format_encoders,
+#   html: Phoenix.Template.HTML,
+#   xml: Phoenix.Template.HTML
+
 config :mavu_form,
   default_theme: :tw_material
 

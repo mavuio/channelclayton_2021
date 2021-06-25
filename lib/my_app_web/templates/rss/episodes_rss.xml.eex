@@ -1,0 +1,896 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Channel Clayton—Mithören</title>
+    <link href="https://channel-clayton.uni-ak.ac.at/podcast/general_feed.xml" rel="self" />
+    <link href="https://channel-clayton.uni-ak.ac.at/podcast" />
+    <updated>2020-06-21T13:38:21+02:00</updated>
+    <id>https://channel-clayton.uni-ak.ac.at/podcast/</id>
+    <author>
+        <name>Instituts für Kunstwissenschaften, Kunstpädagogik und Kunstvermittlung</name>
+        <email>werkzeugh@gmail.com</email>
+    </author>
+
+
+    <entry>
+        <title>Episode 14</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode14.html" />
+        <updated>2020-06-19T12:14:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode14</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            14&quot;,&quot;subtitle&quot;:&quot;Janosch und die Liebe | Nicole
+            Wagner&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode14.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Eine Untersuchung über Ausdrucksformen der Liebe&lt;br /&gt;
+            in Illustrationen zu den Kinder- und den Erwachsenenbüchern Horst Eckerts&lt;/em&gt; von Nicole
+            Wagner&lt;/p&gt;
+
+            &lt;p&gt;Janosch ist Kinderbuchillustrator, Autor von Erwachsenenbüchern und freischaffender Künstler. Liebe
+            in all ihren Facetten, so die Grundthese, nimmt in seinem vre eine zentrale Stellung ein: vom Loblied auf
+            die Freundschaft bis hin zum Wunschbild eines Arkadiens der Selbstverwirklichung und der Liebesfreiheit. In
+            latenter Lüsternheit im Spannungsfeld von Verniedlichung und Bestialität offenbart er ein ganzes Bündel an
+            Sehnsüchten, die als kollektives Gedächtnis aller Männerfantasien erhältlich sind.&lt;br /&gt;
+            Diese Arbeit untersucht &lt;em&gt;Janoschs&lt;/em&gt; disparates Bild von Liebe und deutet es gleichsam als
+            Spiegel und als ironische Brechung des abendländischen Liebesdiskurses.&lt;/p&gt;
+
+            &lt;p&gt;Betreuerin: Renate Vergeiner&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:35230&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/janosch-und-die-liebe/&quot;&gt;➜
+            zur Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/Janosch_Ich-liebe-dich-du-mausescharfes-Luder-fideralla-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 13</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode13.html" />
+        <updated>2020-06-19T12:13:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode13</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode13.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode13.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode13.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            13&quot;,&quot;subtitle&quot;:&quot;Auf großer Fahrt mit einer Pionierin | Anna Gaya
+            Nidzgorska&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode13.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Über das Spiel Round the World with Nellie Bly” (USA, 1890)&lt;/em&gt; von Anna Gaya
+            Nidzgorska&lt;/p&gt;
+
+            &lt;p&gt;In dieser Diplomarbeit wird das Reisespiel &lt;em&gt;Round the World with Nellie Bly&lt;/em&gt;
+            (USA 1890) in den Blick genommen. Es handelt sich dabei um ein sogenanntes Gänsespiel”, dank dessen die
+            Spieler*innen die aufsehenerregende Weltreise der Journalistin Nellie Bly nachvollziehen konnten. Bly trat
+            ihre Reise alleine, ohne männliche Begleitung an. Darüber hinaus platzierte sie eine Wette, die als
+            Herausforderung des patriarchalen Wertekanons angesehen wurde: Sie wollte die Welt in weniger als 80 Tagen,
+            also schneller als Jules Vernes fiktiver Charakter Phileas Fogg umrunden.&lt;/p&gt;
+
+            &lt;p&gt;Das Spiel sowie Blys Reisebericht und Biografie werden sodann im Kontext des damaligen Wandels des
+            Frauenbildes betrachtet.&lt;/p&gt;
+
+            &lt;p&gt;Betreuer: Ernst Strouhal&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:35022&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a
+            href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/auf-groser-fahrt-mit-einer-pionierin/&quot;&gt;➜
+            zur Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/nelly_bly_quadrat_small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1334567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode13.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode13.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode13.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 12</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode12.html" />
+        <updated>2020-06-19T12:12:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode12</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode12.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode12.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode12.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            12&quot;,&quot;subtitle&quot;:&quot;Motivwahl als kulturelle Praxis im österreichischen Amateurfilm der
+            1920er- bis 1980er-Jahre | Sarah
+            Lauß&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode12.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;von Sarah Lauß&lt;/p&gt;
+
+            &lt;p&gt;Familie und Freizeit bilden die thematischen Schwerpunkte in privaten Filmaufnahmen. Was einen
+            intimen Einblick in den lebensgeschichtlichen Alltag verspricht, erscheint oft als die Wiederholung des
+            Immergleichen. Die Dissertation widmet sich der Analyse von österreichischen Amateurfilmen aus den 1920er-
+            bis 1980er-Jahren, anhand derer die hier vorherrschenden Themen und Motive beobachtbar sowie
+            medienspezifische Darstellungsweisen deutlich gemacht werden. Die Verdichtungen im amateurfilmspezifischen
+            Bildrepertoire sollen als zentrale Typen vorgestellt und ein Beitrag zur Ikonografie des österreichischen
+            Amateurfilms geleistet werden.&lt;/p&gt;
+
+            &lt;p&gt;Betreuerin: Eva Kernbauer&lt;/p&gt;
+
+            &lt;p&gt;Weiterführende Informationen zum DOC-Team &lt;em&gt;Doing Amateur Film&lt;/em&gt; finden Sie auf
+            der &lt;a href=&quot;https://www.angewandtekunstgeschichte.net/forschung/doing-amateur-film&quot;&gt;Website
+            der Abteilung Kunstgeschichte&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a
+            href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/motivwahl-als-kulturelle-praxis-im-osterreichischen-amateurfilm-der-1920er-bis-1980er-jahre/&quot;&gt;➜
+            zur Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/channel-clayton-mithoeren-sarah-lauss-small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode12.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode12.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode12.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 11</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode11.html" />
+        <updated>2020-06-19T12:11:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode11</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode11.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode11.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode11.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            11&quot;,&quot;subtitle&quot;:&quot;Haptische Wahrnehmung im Kunstunterricht | Junia Elisabeth
+            Lahner&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode11.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Eine projektbasierte Unterrichtsforschung&lt;/em&gt; von Junia Elisabeth Lahner&lt;/p&gt;
+
+            &lt;p&gt;Die Masterarbeit beschäftigt sich mit der Wirkung haptischer Sensibilisierung im Kunstunterricht.
+            Mittels einer empirischen Untersuchung in einer 4. Klasse (inkl. Blind/Kontrollgruppe) an einem Gymnasium in
+            Wien soll herausgefunden werden, ob haptisch-orientierter Unterricht eine Auswirkung auf Wahrnehmung und
+            bildnerische Gestaltung bei Schüler*innen hat. Weiters sollen Interviews erheben, wie mit haptischer
+            Wahrnehmung im Unterricht umgegangen wird. Das Forschungsdesign entspricht einer mixed
+            methods-Konzeption.&lt;/p&gt;
+
+            &lt;p&gt;Betreuerin: Ruth Mateus-Berr&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:35350&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a
+            href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/haptische-wahrnehmung-im-kunstunterricht/&quot;&gt;➜
+            zur Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/Foto-Junia-Lahner_small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode11.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode11.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode11.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 10</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode10.html" />
+        <updated>2020-06-19T12:10:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode10</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode10.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode10.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode10.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            10&quot;,&quot;subtitle&quot;:&quot;Das konstruktivistische Imaginäre | Stefanie
+            Kitzberger&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode10.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Modelle der Überschreitung von Kunst im frühen russischen Konstruktivismus&lt;/em&gt; von
+            Stefanie Kitzberger&lt;/p&gt;
+
+            &lt;p&gt;Die Dissertation unternimmt eine kritische Auseinandersetzung mit dem Anspruch des russischen
+            Konstruktivismus, das Verhältnis von Kunst und gesellschaftlicher Wirklichkeit radikal zu verändern. Dafür
+            historisiere ich ein zentrales Axiom, das nicht nur von den Konstruktivist&lt;em&gt;innen geteilt wurde,
+            sondern auch die kunsthistorische Forschung prägt: die Auffassung, dass eine fortschreitende
+            Selbstreflexivität der Kunst zu deren direkter Teilhabe am gesellschaftlichen „Realen“ führe. Diesem
+            Narrativ setze ich eine alternative Geschichte entgegen, in der die Komplexität und Widersprüchlichkeit der
+            von den Konstruktivist&lt;/em&gt;innen entwickelten Modelle zur Realisierung ihres Vorhabens beschrieben
+            werden.&lt;/p&gt;
+
+            &lt;p&gt;Betreuerin: Eva Kernbauer&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a
+            href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/das-konstruktivistische-imaginare/&quot;&gt;➜ zur
+            Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/zweite-fruehlingsausstellung_detail_small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode10.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode10.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode10.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 09</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode09.html" />
+        <updated>2020-06-19T12:09:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode09</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode09.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode09.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode09.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            09&quot;,&quot;subtitle&quot;:&quot;'Kunstaktivismus als Handlungsmöglichkeit am Beispiel Zentrum für
+            politische Schönheit' | Tanja
+            Happel&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode09.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;von Tanja Happel&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit gibt Auskunft darüber, wie sich die kunstaktivistische Gruppe Zentrum für politische
+            Schönheit (ZPS) formiert und inszeniert und welche Herangehensweisen in der Konzeption ihrer Aktionen
+            angewendet werden. Das ZPS versteht sich als Organisation, die im Theaterkontext verortet ist. Vorwiegend
+            wird ihre Aktion &lt;em&gt;Flüchtlinge Fressen&lt;/em&gt; betrachtet. Im Fokus steht die Verzahnung von
+            Realität und Fiktion, aber auch der Sprachgebrauch und Schönheitsbegriff des ZPS werden spezifiziert.
+            Abschließend werden durch die Aktion entstandene politische Handlungsmöglichkeiten, aber auch mögliche
+            Gefahren dargelegt.&lt;/p&gt;
+
+            &lt;p&gt;Betreuerin: Eva Kernbauer&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:34545&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a
+            href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/kunstaktivismus-als-handlungsmoglichkeit-am-beispiel-zentrum-fur-politische-schonheit/&quot;&gt;➜
+            zur Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/Channel-Clayton_Bild1-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode09.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode09.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode09.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 08</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode08.html" />
+        <updated>2020-06-19T12:08:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode08</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode08.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode08.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode08.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            08&quot;,&quot;subtitle&quot;:&quot;Praxisforschung | Lea Maria
+            Jank&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode08.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Sozial Orientiertes Design im Fach Technisches und Textiles Werken&lt;/em&gt; von Lea
+            Maria Jank&lt;/p&gt;
+
+            &lt;p&gt;Aus den bisher getrennten Fächern Textiles Werken und Technisches Werken entsteht zukünftig in
+            Österreich ein neues vereintes Werkfach, das sich nicht auf bestimmte Techniken und Materialien festlegen
+            soll. Ausbildungen, Rahmenbedingungen und der neue Lehrplan werden in dieser Masterarbeit vorgestellt. Kern
+            der Arbeit ist eine qualitative Unterrichtsforschung im Bereich &lt;em&gt;Social Design&lt;/em&gt; –
+            &lt;em&gt;Design Thinking&lt;/em&gt; für dieses zukünftige Unterrichtsfach. Schüler&lt;em&gt;innen einer
+            ersten Klasse designen für Senior&lt;/em&gt;innen eines Altersheims ein Werkstück. Diese Untersuchung wird
+            mittels Forschungstagebuches dokumentiert und ausgewertet. Das allgemeine Ziel der Arbeit bezieht sich auch
+            darauf, das neue Fach zu erforschen.&lt;/p&gt;
+
+            &lt;p&gt;Betreuerin: Ruth Mateus Berr&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/praxisforschung/&quot;&gt;➜ zur
+            Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/Sketches-41_quadratisch_small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode08.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode08.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode08.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 07</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode07.html" />
+        <updated>2020-06-19T12:07:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode07</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode07.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode07.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode07.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            07&quot;,&quot;subtitle&quot;:&quot;Handwerk, künstlerische Strategie, Rezeption | Ella
+            Wagner&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode07.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Eine Untersuchung der Potentiale der Druckgrafik für die Kunstpädagogik&lt;/em&gt; von
+            Ella Wagner&lt;/p&gt;
+
+            &lt;p&gt;Vier Druckgrafiken werden auf ihr Potential für die kunstpädagogische Arbeit untersucht. Aspekte
+            von Handwerk, künstlerischer Strategie und Rezeption stehen dabei im Fokus, wobei technische,
+            gesellschaftliche und kulturelle Entwicklungen ebenso Berücksichtigung finden.Die Potentiale sind u.a.:
+            Materialkontakt als Begreifen der Welt, das Erfahren/Erlernen handwerklicher Techniken und kooperatives
+            Arbeiten, Experimentieren als Lernprozess, Druckgrafik in Bezug zur Nutzung heutiger digitaler Bildmedien
+            und deren Wirkungsweisen. Die Arbeit bietet Anregungen für die theoretische und praktische Anwendung in der
+            kunstpädagogischen Arbeit.&lt;/p&gt;
+
+            &lt;p&gt;Betreuerin: Eva Maria Stadler&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:35260&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a
+            href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/handwerk-kunstlerische-strategie-rezeption/&quot;&gt;➜
+            zur Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/untersuchung_quadrat_small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode07.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode07.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode07.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 06</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode06.html" />
+        <updated>2020-06-19T12:06:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode06</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode06.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode06.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode06.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            06&quot;,&quot;subtitle&quot;:&quot;That's why I like happy endings\&quot; | Moritz
+            Mayer&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode06.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Metaleptische Grenzüberschreitungen in den Superheldencomics von Grant
+            Morrison&lt;/em&gt; von Moritz Mayer&lt;/p&gt;
+
+            &lt;p&gt;In meiner Arbeit habe ich das Konzept von Metalepsis (Grenzüberschreitung zwischen zwei
+            hierarchisch angeordneten Welten) im Medium Comic anhand der Superheldencomicreihe „The Multiversity“ von
+            Grant Morrison untersucht. Zuerst habe ich die verschiedenen Formen von Metalepsis anhand von Theorien von
+            Karin Kukkonen (aufsteigende, absteigende, rhetorische und ontologische Metalepsis) und Jeff Thoss (drei
+            metaleptische Prototypen) definiert. Im Hauptteil meiner Arbeit analysiere ich metaleptische Vorfälle in
+            Grant Morrisons Comicreihe „The Multiversity“, seine Zugänge und Interaktionen mit seinen fiktiven
+            Welten.&lt;/p&gt;
+
+            &lt;p&gt;Betreuerin: Renate Vergeiner&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:35196&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a
+            href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/thats-why-i-like-happy-endings/&quot;&gt;➜ zur
+            Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/Channel-Clayton-Metalepsis-Bild_small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode06.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode06.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode06.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 05</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode05.html" />
+        <updated>2020-06-19T12:05:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode05</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode05.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode05.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode05.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            05&quot;,&quot;subtitle&quot;:&quot;„Don’t forget to go home“ | Laura
+            Lang&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode05.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Zur Funktion und Bedeutung von Tanzformen in der Clubkultur der Gegenwart&lt;/em&gt; von
+            Laura Lang&lt;/p&gt;
+
+            &lt;p&gt;Thema dieser Diplomarbeit sind Tanzformen, wie sie in Clubs zu elektronischer Tanzmusik praktiziert
+            werden. Ausgehend von drei beispielhaften Clubereignissen wird versucht, Tanzformen zu beschreiben und ihre
+            gesellschaftliche Relevanz zu untersuchen. Fragen, wie beispielsweise „worin besteht das Miteinander“,
+            „worin das Einzelne im Tanz“ und „welches Verständnis von ‚Gemeinschaft‘ und ‚Individuum‘ zeichnet sich
+            darin ab“, „in welcher Weise unterscheiden sich die Regeln, Ästhetiken und Hierarchien der Clubkultur von
+            jenen der profanen Welt“ und „worin ähneln sie sich“, gaben Anstoß zu dieser Arbeit.&lt;/p&gt;
+
+            &lt;p&gt;Betreuer: Ernst Strouhal&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:34985&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/dont-forget-to-go-home/&quot;&gt;➜
+            zur Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/Laura-Lang-Channel-Clayton_small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode05.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode05.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode05.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 04</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode04.html" />
+        <updated>2020-06-19T12:04:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode04</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode04.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode04.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode04.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            04&quot;,&quot;subtitle&quot;:&quot;Nalpar Sites von Dialogue | Cornelia
+            Kolmann&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode04.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Kontexte – Künstlerische Strategien – Widersprüche – Ausblicke&lt;/em&gt; von Cornelia
+            Kolmann&lt;/p&gt;
+
+            &lt;p&gt;Der Fokus dieser Diplomarbeit liegt auf der sozial-dialogischen Intervention (SDI) &lt;em&gt;Nalpar
+            Sites&lt;/em&gt; des Künstler*innenkollaborativ Dialogue. Diese künstlerische Arbeit weist aufgrund ihres
+            engen Bezugs zum Kontext und ihrer Vielschichtigkeit einen hohen Grad an Komplexität auf.&lt;/p&gt;
+
+            &lt;p&gt;Zur Analyse der von Dialogue verwendeten künstlerischen Strategien wurde das Modell „Verantwortung
+            aus sozialer Verbundenheit“ von I. M. Young herangezogen, welches als Filter über den künstlerischen Prozess
+            gelegt wurde. Darüber hinaus werden in dieser Diplomarbeit Widersprüche der besagten künstlerischen
+            Strategien erläutert sowie Einschränkungen, Erkenntnisse und Fragen für künftige Forschungsvorhaben
+            skizziert.&lt;/p&gt;
+
+            &lt;p&gt;Betreuer: Ernst Strouhal und Florian Bettel&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:35242&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a
+            href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/nalpar-sites-von-dialogue/&quot;&gt;➜ zur Website
+            dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/0F_Channel_C_KolmannC_2020_small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode04.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode04.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode04.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 03</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode03.html" />
+        <updated>2020-06-19T12:03:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode03</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode03.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode03.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode03.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            03&quot;,&quot;subtitle&quot;:&quot;Çukur—Die Grube | Perihan
+            Keles&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode03.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Familien- und Männlichkeitskonstruktionen in der Diaspora&lt;/em&gt; von Perihan
+            Keles&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit beschäftigt sich mit der Frage, wie Kinder und Jugendliche in der türkischen Diaspora in
+            Österreich die Männlichkeitskonstruktionen der Mafia-Fernsehserie &lt;em&gt;Çukur&lt;/em&gt; rezipieren. Der
+            theoretische Teil behandelt den türkischen TV-Sektor, die Produktionsbedingungen in der Türkei und Konzepte
+            der Männerforschung. Der empirische Teil analysiert acht Interviews mit Kindern und Jugendlichen über die
+            Serie &lt;em&gt;Çukur&lt;/em&gt;, die im Zeitraum Juni bis Juli 2019 geführt wurden. Die Untersuchung
+            ergibt, dass Kinder und Jugendliche bestimmte Aspekte wie z.B. das Familienbild der Serie
+            &lt;em&gt;Çukur&lt;/em&gt; als eine symbolische Ressource begreifen.&lt;/p&gt;
+
+            &lt;p&gt;Betreuer*innen: Edith Futscher und Florian Bettel&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:35303&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/cukur-die-grube/&quot;&gt;➜ zur
+            Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/channelclayton_kopf_small-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode03.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode03.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode03.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 02</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode02.html" />
+        <updated>2020-06-19T12:02:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode02</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode02.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode02.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode02.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            02&quot;,&quot;subtitle&quot;:&quot;Das Telefongespräch | Barbara
+            Kedl-Hecher&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode02.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Erforschung des verschwindenden Alltagsmediums Festnetztelefon in Österreich
+            1950–2010&lt;/em&gt; von Barbara Kedl-Hecher&lt;/p&gt;
+
+            &lt;p&gt;Das Telefonieren ist etablierte Kulturtechnik, das Festnetztelefon fixer Bestandteil kommunikativer
+            Praktiken. In Österreich hat es fast 120 Jahre gedauert, bis alle Haushalte an das Telefonnetz angeschlossen
+            waren – und innerhalb von nur knapp 20 Jahren hat es wieder massiv an Bedeutung verloren. Mit der
+            Actor-Network-Theory wird untersucht, ob das Telefon als sozialer Akteur unser Handeln beeinflusst. Die
+            interdisziplinäre Analyse von technischen, historischen, sozialen, ökonomischen, kulturellen und politischen
+            Aspekten soll die Beziehung von Technologie und Gesellschaft erklären. Zentrales Thema ist der
+            Strukturwandel der Öffentlichkeit nach Habermas, um das in der Kommunikationswissenschaft vernachlässigte
+            Medium retrospektiv zu beleuchten.&lt;/p&gt;
+
+            &lt;p&gt;Betreuer: Hubert Christian Ehalt&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/das-telefongesprach/&quot;&gt;➜ zur
+            Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/Telefonausstellung_Simmering2015_small.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode02.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode02.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode02.m4a" />
+
+
+
+    </entry>
+
+    <entry>
+        <title>Episode 01</title>
+        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode01.html" />
+        <updated>2020-06-19T12:01:00+02:00</updated>
+        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode01</id>
+        <content type="html">&lt;script&gt;
+            window.playerConfiguration =
+            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode01.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode01.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode01.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
+            01&quot;,&quot;subtitle&quot;:&quot;View-Adina Bar-On | Clelia
+            Baumgartner&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode01.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
+            &lt;/script&gt;
+
+            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
+            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
+            &lt;/script&gt;
+
+            &lt;p&gt;&lt;em&gt;Eine Betrachtung&lt;/em&gt; von Clelia Baumgartner&lt;/p&gt;
+
+            &lt;p&gt;Die in der Magisterarbeit vorgenommene Analyse behandelt &lt;em&gt;View-the performance&lt;/em&gt;
+            (1997–98) und &lt;em&gt;View-the Videofilms&lt;/em&gt; (1999), zwei Arbeiten der Künstlerin Adina Bar-On.
+            Der Begriff des Romantischen wird in verschiedenen Konnotationen in ihren begriffsgeschichtlichen und
+            historischen Kontexten behandelt. View wird als Einladung zum Romantisieren interpretiert. Bei der
+            Betrachtung der zwei Werke werden Grenzverwischungen, Transformationen und Überwindungen auf verschiedenen
+            Ebenen aufgedeckt – die mittels Intimität, Liebe, der Überwindung der Distanz und dem Bruch mit der Leinwand
+            vollzogen werden.&lt;/p&gt;
+
+            &lt;p&gt;Betreuerin: Eva Kernbauer&lt;/p&gt;
+
+            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
+            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:35311&quot;&gt;Repositorium der
+            Angewandten&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
+            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
+            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;a href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/clelia-baumgartner/&quot;&gt;➜ zur
+            Website dieser Episode&lt;/a&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;img
+            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/View-quadrat-1024x1024.jpg&quot;
+            alt=&quot;&quot; /&gt;&lt;/p&gt;
+        </content>
+
+
+        <link rel="enclosure" type="audio/mpeg" length="1234567"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode01.mp3" />
+
+
+
+        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode01.ogg" />
+
+
+
+        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
+            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode01.m4a" />
+
+
+
+    </entry>
+
+</feed>
