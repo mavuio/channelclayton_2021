@@ -1,0 +1,27 @@
+<div id="<%= @id %>" class="season_edit_component">
+  <%= live_component @socket,
+           MyAppBe.Live.Components.CenteredModalComponent, phx_target: "##{@id}",  class: "sm:max-w-[90vw] sm:w-[600px] w-full" do %>
+  <div class="my-8 season_component_inner">
+
+    <div class="mb-4 text-lg font-bold">Season</div>
+
+
+    <%= f = form_for(@changeset, "#", [ as: :fdata, phx_change: :validate, phx_submit: :save, phx_target: "##{@id}"]) %>
+
+
+    <%= input f, :num , label: "Num" %>
+
+    <%= input f, :title , label: "Title" %>
+    <%= input f, :subtitle , label: "Subtitle" %>
+    <%= input f, :link , label: "Link" %>
+    <%= input f, :poster , label: "Poster-URL" %>
+
+    <%= input f, :summary , using: :textarea, label: "Summary", rows: 10 %>
+
+    <div class="my-4 text-right">
+      <%= content_tag :button, "OK",class: "btn-outline-primary px-10" %>
+    </div>
+
+
+    </form>
+  </div> <% end %> </div>

@@ -1,0 +1,11 @@
+<div class="my-4 text-lg font-bold">Season-List</div>
+
+
+
+
+<%= live_component @socket,  MyAppBe.SeasonLive.SeasonListComponent ,
+                id: "season_list",
+                context: @context,
+                base_path: &Routes.season_path(@socket,:index,&1)
+
+%>

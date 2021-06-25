@@ -1,0 +1,29 @@
+#!/usr/bin/env osascript -l JavaScript
+
+// open with atom
+
+lib = Library("iterm2lib")
+tab = lib.createNewTab()
+
+var r = [],
+    l = [];
+
+l[0] = tab.sessions[0];
+r[0] = lib.addCol(l[0]);
+
+// r[2] = lib.addRow(r[0]);
+r[1] = lib.addRow(r[0]);
+
+// l[2] = lib.addRow(l[0]);
+l[1] = lib.addRow(l[0]);
+
+[
+    ['cd /www/reference_phoenix', 'cd assets', 'pnpm watch-css'],
+    ['cd /www/reference_phoenix', 'git status'],
+].reduce(lib.sendCmds, l);
+
+[
+    ['cd /www/reference_phoenix', 'iex -S mix phx.server'],
+    ['cd /www/reference_phoenix', 'git status', 'sleep 3;echo http://localhost:4000/prod'],
+
+].reduce(lib.sendCmds, r);

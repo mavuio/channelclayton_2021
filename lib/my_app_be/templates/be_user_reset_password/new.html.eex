@@ -1,0 +1,18 @@
+<div class="<%= tw_class :narrow_container  %> mt-4">
+  <h1>Forgot your password?</h1>
+
+  <%= form_for :be_user, Routes.be_user_reset_password_path(@conn, :create), fn f -> %>
+
+  <%= input f, :email, required: true, using: :email_input, label: "e-Mail" %>
+
+  <div>
+    <%= submit "Send instructions to reset password", class: "btn-primary mt-6" %>
+  </div>
+  <% end %>
+
+  <p class="mt-4">
+    <%= link "Register", to: Routes.be_user_registration_path(@conn, :new) %> |
+    <%= link "Log in", to: Routes.be_user_session_path(@conn, :new) %>
+  </p>
+
+</div>

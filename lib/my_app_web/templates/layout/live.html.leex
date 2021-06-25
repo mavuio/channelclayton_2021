@@ -1,0 +1,4 @@
+<%= render("alert.html", message: live_flash(@flash,:info), type: :info) %>
+<%= render("alert.html", message: live_flash(@flash,:error), type: :error) %>
+<%= @inner_content %>
+<div phx-hook="RootHook" id="root"></div>

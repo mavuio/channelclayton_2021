@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <%= csrf_meta_tag() %>
+  <%= live_title_tag assigns[:page_title] || "MyApp", suffix: " - Backend" %>
+  <link phx-track-static rel="stylesheet" href="<%= Routes.static_path(@conn, "/be_css/be_app.css") %>" />
+  <link phx-track-static rel="stylesheet" href="<%= Routes.static_path(@conn, "/be_css/be_app-js.css") %>" />
+  <script defer phx-track-static type="text/javascript" src="<%= Routes.static_path(@conn, "/be_js/be_app.js") %>">
+  </script>
+</head>
+
+<body>
+
+  <div class="min-h-screen bg-white">
+    <nav class="bg-white border-b border-gray-200 print:hidden">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center flex-shrink-0">
+            reservations
+          </div>
+          <div class="flex ml-6 -my-px space-x-8">
+
+            <% class_active="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 border-b-2 border-indigo-500"
+                 class_inactive="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+              %>
+
+
+            <%#= active_link(@conn, "Reservierungen", to: Routes.reservations_reservations_day_sheet_path(@conn,:list,  assigns[:context][:params]["day"] |> MavuUtils.if_nil("") ),  class_active: class_active, class_inactive: class_inactive, active: :inclusive) %>
+
+            <%= active_link(@conn, "Episodes", to: Routes.episode_path(@conn,:index),  class_active: class_active, class_inactive: class_inactive, active: :inclusive) %>
+            <%= active_link(@conn, "Seasons", to: Routes.season_path(@conn,:index),  class_active: class_active, class_inactive: class_inactive, active: :inclusive) %>
+
+            <%#= active_link(@conn, "Table-Groups", to: Routes.tablegroup_tablegroup_path(@conn,:index),  class_active: class_active, class_inactive: class_inactive, active: :inclusive) %>
+
+
+
+
+          </div>
+
+          <div class="flex flex-col justify-center h-full pl-8 border-l border-gray-300 flex-0">
+            <%= if @current_be_user do %>
+            <div class="text-sm text-right">
+              <div class="opacity-50"><%= @current_be_user.email %></div>
+              <%= link ["→ log out"], to: Routes.be_user_session_path(@conn, :delete), method: :delete, title: "log-out", class: "inline-block align-bottom	" %>
+            </div> <% end %>
+          </div>
+
+        </div>
+
+
+
+    </nav>
+
+    <div class="">
+
+      <main>
+        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <%= @inner_content %>
+
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+<section class="flex flex-col flex-auto ">
+
+  <%= render("alert.html", message: get_flash(@conn,:info), type: :info) %>
+  <%= render("alert.html", message: get_flash(@conn,:error), type: :error) %>
+
+  <%= @inner_content %>
+</section>

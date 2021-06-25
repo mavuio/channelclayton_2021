@@ -1,0 +1,68 @@
+in  assets:
+
+remove all devDependencies in  package.json
+
+pnpm add tailwindcss
+pnpm add @tailwindcss/forms
+pnpm add @tailwindcss/typography
+pnpm add postcss
+pnpm add postcss-cli
+pnpm add autoprefixer
+pnpm add alpinejs
+pnpm add nprogress
+pnpm add webpack-cli
+pnpm add mini-css-extract-plugin
+pnpm add optimize-css-assets-webpack-plugin
+pnpm add copy-webpack-plugin
+pnpm add terser-webpack-plugin
+pnpm add babel-loader
+pnpm add regenerator-runtime
+
+
+
+
+mix phx.gen.auth BeAccounts BeUser be_users
+
+
+Generated my_app app
+* creating priv/repo/migrations/20210617194027_create_be_users_auth_tables.exs
+* creating lib/my_app/be_accounts/be_user_notifier.ex
+* creating lib/my_app/be_accounts/be_user.ex
+* creating lib/my_app/be_accounts/be_user_token.ex
+* creating lib/my_app_web/controllers/be_user_auth.ex
+* creating test/my_app_web/controllers/be_user_auth_test.exs
+* creating lib/my_app_web/views/be_user_confirmation_view.ex
+* creating lib/my_app_web/templates/be_user_confirmation/new.html.eex
+* creating lib/my_app_web/controllers/be_user_confirmation_controller.ex
+* creating test/my_app_web/controllers/be_user_confirmation_controller_test.exs
+* creating lib/my_app_web/templates/layout/_be_user_menu.html.eex
+* creating lib/my_app_web/templates/be_user_registration/new.html.eex
+* creating lib/my_app_web/controllers/be_user_registration_controller.ex
+* creating test/my_app_web/controllers/be_user_registration_controller_test.exs
+* creating lib/my_app_web/views/be_user_registration_view.ex
+* creating lib/my_app_web/views/be_user_reset_password_view.ex
+* creating lib/my_app_web/controllers/be_user_reset_password_controller.ex
+* creating test/my_app_web/controllers/be_user_reset_password_controller_test.exs
+* creating lib/my_app_web/templates/be_user_reset_password/edit.html.eex
+* creating lib/my_app_web/templates/be_user_reset_password/new.html.eex
+* creating lib/my_app_web/views/be_user_session_view.ex
+* creating lib/my_app_web/controllers/be_user_session_controller.ex
+* creating test/my_app_web/controllers/be_user_session_controller_test.exs
+* creating lib/my_app_web/templates/be_user_session/new.html.eex
+* creating lib/my_app_web/views/be_user_settings_view.ex
+* creating lib/my_app_web/templates/be_user_settings/edit.html.eex
+* creating lib/my_app_web/controllers/be_user_settings_controller.ex
+* creating test/my_app_web/controllers/be_user_settings_controller_test.exs
+* creating lib/my_app/be_accounts.ex
+* injecting lib/my_app/be_accounts.ex
+* creating test/my_app/be_accounts_test.exs
+* injecting test/my_app/be_accounts_test.exs
+* creating test/support/fixtures/be_accounts_fixtures.ex
+* injecting test/support/fixtures/be_accounts_fixtures.ex
+* injecting test/support/conn_case.ex
+* injecting config/test.exs
+* injecting mix.exs
+* injecting lib/my_app_web/router.ex
+* injecting lib/my_app_web/router.ex - imports
+* injecting lib/my_app_web/router.ex - plug
+* injecting lib/my_app_web/templates/layout/root.html.leex

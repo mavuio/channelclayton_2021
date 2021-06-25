@@ -1,0 +1,44 @@
+<%= if @message do %>
+<div id="myalert_<%= @type %>_<%= to_string(DateTime.utc_now()) |> String.replace(" ","_") %>" x-data="
+{
+    openAlertBox:false,
+    closebox() {
+        this.openAlertBox=false;
+        setTimeout(()=>{this.$refs.lv_clearflash.dispatchEvent(new Event('click', { bubbles: true }));},500)
+    }
+}
+" x-init="setTimeout(()=>{openAlertBox=true},50);
+<%= if @type not in [:error] do %>
+setTimeout(()=>{closebox()},5000);
+<% end %>
+" class="relative">
+    <a href="#" class="hidden" phx-click="lv:clear-flash" phx-value-key="<%= @type %>" x-ref="lv_clearflash">clear
+        flash</a>
+    <template x-if="openAlertBox">
+        <div class="fixed right-0
+         <%= case @type do %>
+                <% :error -> %>top-0
+                <% _ -> %>bottom-0
+                <% end %>
+            " x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0"
+            x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
+            <div class="p-10 cursor-pointer" x-on:click="closebox">
+                <div class="flex items-center px-4 py-3 text-sm font-bold text-white rounded shadow-md
+                <%= case @type do %>
+                <% :error -> %>bg-red-500
+                <% _ -> %>bg-blue-400
+                <% end %>" role="alert">
+                    <span class="flex-auto pr-6"><%= @message %></span>
+                    <button type="button" class="flex-initial">
+                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                            viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                            <path d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </template>
+</div>
+<% end %>

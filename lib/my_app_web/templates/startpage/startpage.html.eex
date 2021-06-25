@@ -1,0 +1,26 @@
+<div class="container p-8 py-12 bg-yellow-100">
+
+    <h1 class="my-8 text-xl font-bold"><%= snip @context, "/frontend/startpage.title", "welcome to the Project" %></h1>
+
+
+    <div class="prose">
+        <%= snip @context, "/frontend/startpage.info_text" do %>
+        <p>
+            <strong>Welcome to the reference project.</strong>
+        </p>
+        <p>
+            Feel free to adapt it to your needs
+        </p>
+        <% end  %>
+    </div>
+
+
+    <div class="pre">
+        <%= snip @context, "/frontend/startpage.code_plaintext" do %>
+        Mein text
+        der sich an linebreaks hält
+        <% end #s %>
+    </div>
+
+
+</div>

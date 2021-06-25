@@ -1,0 +1,6 @@
+
+cd /www/target
+git commit before this.
+
+
+rsync -av --exclude node_modules --exclude .git --exclude deps --exclude _build --exclude .elixir_ls --exclude "nocopy_*" /www/reference_phoenix/ ./

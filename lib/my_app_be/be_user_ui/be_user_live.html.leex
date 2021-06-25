@@ -1,0 +1,11 @@
+<div class="my-4 text-lg font-bold">Backend-Users</div>
+
+
+
+
+<%= live_component  MavuBeUserUi.Live.ListComponent  ,
+                id: "be_user_list",
+                context: @context,
+                base_path: &Routes.be_user_path(@socket,:index,&1)
+
+%>

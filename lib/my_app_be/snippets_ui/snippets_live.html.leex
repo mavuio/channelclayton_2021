@@ -1,0 +1,11 @@
+<div class="my-4 text-lg font-bold">Snippets</div>
+
+
+
+<%= live_component	MavuSnippetsUi.Live.ListComponent  ,
+	id: "snippets_list",
+	context: @context,
+	mavu_snippets_ui_msg: @mavu_snippets_ui_msg,
+	base_path: &Routes.snippets_path(@socket,:index,&1)
+
+%>

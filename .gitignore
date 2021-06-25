@@ -1,0 +1,13 @@
+/_build/
+/cover/
+/deps/
+/doc/
+/logs/
+/.fetch
+erl_crash.dump
+*.ez
+my_app-*.tar
+npm-debug.log
+node_modules
+/config/*.secret.exs
+

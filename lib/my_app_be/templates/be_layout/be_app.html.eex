@@ -1,0 +1,7 @@
+<main role="main" class="">
+
+  <%= render("be_alert.html", message: get_flash(@conn,:info), type: :info) %>
+  <%= render("be_alert.html", message: get_flash(@conn,:error), type: :error) %>
+
+  <%= @inner_content %>
+</main>
