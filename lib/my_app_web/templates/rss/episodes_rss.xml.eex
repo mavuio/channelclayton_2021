@@ -1,83 +1,74 @@
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml version="1.0"
+      encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 
-    <title>Channel Clayton—Mithören</title>
-    <link href="https://channel-clayton.uni-ak.ac.at/podcast/general_feed.xml" rel="self" />
-    <link href="https://channel-clayton.uni-ak.ac.at/podcast" />
-    <updated><%=  MyApp.Episodes.get_latest_change_date() |> rss_date() %></updated>
-    <id>https://channel-clayton.uni-ak.ac.at/podcast/</id>
-    <author>
-        <name>Instituts für Kunstwissenschaften, Kunstpädagogik und Kunstvermittlung</name>
-        <email>manfred@mavu.io</email>
-    </author>
-
-    <%= for episode <- MyApp.Episodes.get_episodes()  do %>
-
-    <entry>
-        <title><%= episode.title %></title>
-        <link href="https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode14.html" />
-        <updated>2020-06-19T12:14:00+02:00</updated>
-        <id>https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode14</id>
-        <content type="html">&lt;script&gt;
-            window.playerConfiguration =
-            {&quot;options&quot;:{&quot;theme&quot;:&quot;default&quot;,&quot;startPanel&quot;:&quot;ChapterMarks&quot;},&quot;extensions&quot;:{&quot;ChapterMarks&quot;:{},&quot;EpisodeInfo&quot;:{},&quot;Playlist&quot;:{}},&quot;title&quot;:null,&quot;episode&quot;:{&quot;media&quot;:{&quot;mp3&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.mp3&quot;,&quot;ogg&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.ogg&quot;,&quot;m4a&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.m4a&quot;},&quot;coverUrl&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/img/logo-360x360.png&quot;,&quot;title&quot;:&quot;Episode
-            14&quot;,&quot;subtitle&quot;:&quot;Janosch und die Liebe | Nicole
-            Wagner&quot;,&quot;url&quot;:&quot;https://channel-clayton.uni-ak.ac.at/podcast/2020/06/19/episode14.html&quot;,&quot;description&quot;:null,&quot;chaptermarks&quot;:null}}
-            &lt;/script&gt;
-
-            &lt;script class=&quot;podigee-podcast-player&quot; data-configuration=&quot;playerConfiguration&quot;
-            src=&quot;https://channel-clayton.uni-ak.ac.at/podcast/podigee-player/javascripts/podigee-podcast-player.js&quot;&gt;
-            &lt;/script&gt;
-
-            &lt;p&gt;&lt;em&gt;Eine Untersuchung über Ausdrucksformen der Liebe&lt;br /&gt;
-            in Illustrationen zu den Kinder- und den Erwachsenenbüchern Horst Eckerts&lt;/em&gt; von Nicole
-            Wagner&lt;/p&gt;
-
-            &lt;p&gt;Janosch ist Kinderbuchillustrator, Autor von Erwachsenenbüchern und freischaffender Künstler. Liebe
-            in all ihren Facetten, so die Grundthese, nimmt in seinem vre eine zentrale Stellung ein: vom Loblied auf
-            die Freundschaft bis hin zum Wunschbild eines Arkadiens der Selbstverwirklichung und der Liebesfreiheit. In
-            latenter Lüsternheit im Spannungsfeld von Verniedlichung und Bestialität offenbart er ein ganzes Bündel an
-            Sehnsüchten, die als kollektives Gedächtnis aller Männerfantasien erhältlich sind.&lt;br /&gt;
-            Diese Arbeit untersucht &lt;em&gt;Janoschs&lt;/em&gt; disparates Bild von Liebe und deutet es gleichsam als
-            Spiegel und als ironische Brechung des abendländischen Liebesdiskurses.&lt;/p&gt;
-
-            &lt;p&gt;Betreuerin: Renate Vergeiner&lt;/p&gt;
-
-            &lt;p&gt;Die Arbeit zum Nachlesen finden Sie im &lt;a
-            href=&quot;http://phaidra.bibliothek.uni-ak.ac.at/o:35230&quot;&gt;Repositorium der
-            Angewandten&lt;/a&gt;.&lt;/p&gt;
-
-            &lt;p&gt;&lt;strong&gt;Musik:&lt;/strong&gt; Cupcake Marshall by &lt;a
-            href=&quot;https://freemusicarchive.org/music/Blue_Dot_Sessions&quot;&gt;Blue Dot Sessions&lt;/a&gt; - &lt;a
-            href=&quot;https://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;CC BY-NC 4.0&lt;/a&gt;&lt;/p&gt;
-
-            &lt;p&gt;&lt;a href=&quot;https://channel-clayton.uni-ak.ac.at/index.php/janosch-und-die-liebe/&quot;&gt;➜
-            zur Website dieser Episode&lt;/a&gt;&lt;/p&gt;
-
-            &lt;p&gt;&lt;img
-            src=&quot;https://channel-clayton.uni-ak.ac.at/wp-content/uploads/2020/06/Janosch_Ich-liebe-dich-du-mausescharfes-Luder-fideralla-1024x1024.jpg&quot;
-            alt=&quot;&quot; /&gt;&lt;/p&gt;
-        </content>
+    <channel>
+        <title><%= snip "de","/feed/general.title_textline" do %>Channel Clayton—Mithören<% end %></title>
+        <link>https://channel-clayton.uni-ak.ac.at</link>
+        <atom:link href="<%= @feed_url.(:self) %>" rel="self" type="application/rss+xml" title="Episodes RSS-Feed" />
+        <atom:link href="<%= @feed_url.(:first) %>" rel="first" type="application/rss+xml" />
+        <atom:link href="<%= @feed_url.(:last) %>" rel="last" type="application/rss+xml" />
 
 
-        <link rel="enclosure" type="audio/mpeg" length="1234567"
-            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.mp3" />
+        <description><%= snip "de","/feed/general.description_plaintext" , format_as: "plaintext" do %>
+            Channel Clayton stellt heuer aufs Mithören um: In verschiedenen Episoden des Podcasts berichten
+            Autor*innen über die Thesen und die Ergebnisse ihrer wissenschaftlichen Abschlussarbeiten, vorwiegend des
+            Instituts für Kunstwissenschaften, Kunstpädagogik und Kunstvermittlung.
+            <% end %>
+        </description>
+        <lastBuildDate><%=  MyApp.Episodes.get_latest_change_date() |> rss_date() %></lastBuildDate>
+        <language>de</language>
+        <generator>mavu.io rss-feed-generator</generator>
+        <itunes:summary><%= snip("de","/feed/general.description_plaintext" , nil, [format_as: "plaintext"] ) %>
+        </itunes:summary>
+        <itunes:author><%= snip "de","/feed/general.author_textline" , format_as: "plaintext" do %>Instituts für
+            Kunstwissenschaften, Kunstpädagogik und Kunstvermittlung<% end %></itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="https://channel-clayton.uni-ak.ac.at/podcast/img/logo-itunes.jpg" />
+        <itunes:owner>
+            <itunes:name><%= snip "de","/feed/general.author_textline"  %></itunes:name>
+            <itunes:email><%= snip "de","/feed/general.author_email_textline","manfred@mavu.io" %></itunes:email>
+        </itunes:owner>
+        <managingEditor><%= snip "de","/feed/general.author_email_textline" %>
+            (<%= snip "de","/feed/general.author_textline"  %>)
+        </managingEditor>
+        <copyright>CC BY 4.0</copyright>
+        <itunes:subtitle>
+            <%= snip "de","/feed/general.subtitle_textline"  do %>Wissenschaftliche Abschlussarbeiten des Instituts für
+            Kunstwissenschaften, Kunstpädagogik und
+            Kunstvermittlung<% end %></itunes:subtitle>
+        <itunes:keywords><%= snip "de","/feed/general.itunes_keywords_textline" do %>podcast, kunstvermittlung<% end %>
+        </itunes:keywords>
+        <image>
+            <title><%= snip "de","/feed/general.title_textline" %></title>
+            <url>https://channel-clayton.uni-ak.ac.at/podcast/img/logo-itunes.jpg</url>
+            <link>https://channel-clayton.uni-ak.ac.at</link>
+        </image>
 
+        <itunes:category text="Arts" />
+        <%= for episode <- MyApp.Episodes.get_episodes()  do %>
+        <item>
+            <title>Episode <%=  episode.num %> - <%= episode.title %> </title>
+            <link><%= episode.link %></link>
+            <pubDate>Fri, 19 Jun 2020 12:14:00 +0200</pubDate>
 
+            <guid isPermaLink="false"><%= episode.link %></guid>
+            <description>
+                <![CDATA[
+                <%= episode.summary %>
+]]>
+            </description>
 
-        <link rel="enclosure" type="audio/ogg; codecs=vorbis" length="2345678"
-            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.ogg" />
-
-
-
-        <link rel="enclosure" type="audio/mp4a-latm" length="3456789"
-            href="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode14.m4a" />
-
-
-
-    </entry>
-
-    <% end %>
-
-
-
-</feed>
+            <enclosure url="https://channel-clayton.uni-ak.ac.at/podcast/episodes/episode<%= episode.num %>.mp3"
+                length="1234567" type="audio/mpeg" />
+            <itunes:keywords></itunes:keywords>
+            <itunes:subtitle><%= episode.subtitle %></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:author><%= snip "de","/feed/general.author_textline" %></itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration><%= episode.duration %></itunes:duration>
+        </item>
+        <% end %>
+    </channel>
+</rss>

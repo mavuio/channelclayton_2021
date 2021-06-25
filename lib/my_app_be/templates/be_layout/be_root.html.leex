@@ -30,6 +30,7 @@
 
             <%#= active_link(@conn, "Reservierungen", to: Routes.reservations_reservations_day_sheet_path(@conn,:list,  assigns[:context][:params]["day"] |> MavuUtils.if_nil("") ),  class_active: class_active, class_inactive: class_inactive, active: :inclusive) %>
 
+            <%= active_link(@conn, "Settings", to: Routes.snippets_path(@conn,:index),  class_active: class_active, class_inactive: class_inactive, active: :inclusive) %>
             <%= active_link(@conn, "Episodes", to: Routes.episode_path(@conn,:index),  class_active: class_active, class_inactive: class_inactive, active: :inclusive) %>
             <%= active_link(@conn, "Seasons", to: Routes.season_path(@conn,:index),  class_active: class_active, class_inactive: class_inactive, active: :inclusive) %>
 

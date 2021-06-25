@@ -29,6 +29,14 @@ defmodule MyAppWeb.FrontendHelpers do
     |> local_date()
     |> DateTime.from_naive("Europe/Vienna")
     |> pit(date <- {:ok, date})
+    |> Calendar.strftime("%a, %d %b %Y %H:%M:%S %z")
+  end
+
+  def atom_date(utc_date) do
+    utc_date
+    |> local_date()
+    |> DateTime.from_naive("Europe/Vienna")
+    |> pit(date <- {:ok, date})
     |> Calendar.strftime("%Y-%m-%dT%H:%M:%S%z")
   end
 
