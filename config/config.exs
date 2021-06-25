@@ -37,8 +37,6 @@ config :mavu_form,
 config :mavu_snippets,
   langs: [l1: "en", l2: "de", l3: "it"]
 
-config :exsync, extra_extensions: [".heex", ".leex"]
-
 config :mavu_form, :themes,
   tw_default: MyAppBe.TwVerticalInputTheme,
   tw_horizontal: MyAppBe.TwHorizontalInputTheme,
