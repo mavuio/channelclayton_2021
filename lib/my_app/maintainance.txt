@@ -1,0 +1,7 @@
+wget --no-check-certificate -O episode15.json https://channelclayton.mavu.io/episodes/15/episode.json
+wget --no-check-certificate -O episode16.json https://channelclayton.mavu.io/episodes/16/episode.json
+wget --no-check-certificate -O episode17.json https://channelclayton.mavu.io/episodes/17/episode.json
+wget --no-check-certificate -O episode18.json https://channelclayton.mavu.io/episodes/18/episode.json
+wget --no-check-certificate -O episode19.json https://channelclayton.mavu.io/episodes/19/episode.json
+wget --no-check-certificate -O episode20.json https://channelclayton.mavu.io/episodes/20/episode.json
+wget --no-check-certificate -O episode21.json https://channelclayton.mavu.io/episodes/21/episode.json
