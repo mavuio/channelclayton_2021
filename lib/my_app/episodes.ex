@@ -20,48 +20,46 @@ defmodule MyApp.Episodes do
 
   def get_episode(_), do: nil
 
+  @spec get_episode_by_num(nil | binary | number | Decimal.t()) :: any
+  def get_episode_by_num(num) do
+    Repo.get_by(Episode, num: MavuUtils.to_int(num))
+  end
+
   def get_episodes() do
     get_query(nil, nil)
     |> Repo.all()
   end
 
-  def get_episode_config(episode_or_id)
-      when is_integer(episode_or_id) or is_struct(episode_or_id) do
-    episode = get_episode(episode_or_id)
+  def get_episode_config(episode_or_num)
+      when is_integer(episode_or_num) or is_struct(episode_or_num) do
+    episode = get_episode_by_num(episode_or_num)
 
     %{
-      #     audio: [{
-      #         duration: "00:10:27",
-      #         mimeType: "audio/mpeg",
-      #         size: 10046061,
-      #         title: "MP3 Audio (mp3)",
-      #         url: "/podcast/episodes/episode02.mp3"
-      #     }, {
-      #         duration: "00:10:27",
-      #         mimeType: "audio/mp4",
-      #         size: 10140464,
-      #         title: "MPEG-4 AAC Audio (m4a)",
-      #         url: "/podcast/episodes/episode02.m4a"
-      #     }, {
-      #         duration: "00:10:27",
-      #         mimeType: "audio/ogg",
-      #         size: 6731638,
-      #         title: "Ogg Vorbis Audio (oga)",
-      #         url: "/podcast/episodes/episode02.ogg"
-      #     }],
-      #     duration: "00:10:27",
-      #     show: {
-      #         link: "https://channel-clayton.uni-ak.ac.at/",
-      #         poster: "/podcast/img/logo-itunes.jpg",
-      #         subtitle: "Wissenschaftliche Abschlussarbeiten des Instituts für Kunstwissenschaften, Kunstpädagogik und Kunstvermittlung",
-      #         summary: "Channel Clayton ist auf dem Angewandte Festival 2020 als Podcast vertreten",
-      #         title: "Channel Clayton—Mithören"
-      #     },
-      #     subtitle: "Erforschung des verschwindenden Alltagsmediums Festnetztelefon in Österreich 1950–2010 von Barbara Kedl-Hecher",
-      #     title: "Episode 02 - Das Telefongespräch | Barbara Kedl-Hecher",
-      link: "https://channel-clayton.uni-ak.ac.at/index.php/episode_id/#{episode.id}",
+      audio: [
+        %{
+          duration: episode.duration,
+          mimeType: "audio/mpeg",
+          size: 20_000_000,
+          title: "MP3 Audio (mp3)",
+          url: "/podcast/episodes/episode#{episode.num}.mp3"
+        }
+      ],
+      show: %{
+        link: "https://channel-clayton.uni-ak.ac.at/",
+        poster: "/podcast/img/logo-itunes.jpg",
+        subtitle: MyAppWeb.FrontendHelpers.snip("de", "/feed/general.subtitle_textline"),
+        summary:
+          MyAppWeb.FrontendHelpers.snip("de", "/feed/general.description_plaintext", nil,
+            format_as: "plaintext"
+          ),
+        title: MyAppWeb.FrontendHelpers.snip("de", "/feed/general.title_textline")
+      },
+      title: "Episode #{episode.num} - #{episode.title}",
+      duration: episode.duration,
+      subtitle: "n/a",
+      link: episode.link,
       poster: "/podcast/img/logo-itunes.jpg",
-      publicationDate: "2020-06-19T12:02:00+02:00",
+      publicationDate: episode.pubdate |> MyAppWeb.FrontendHelpers.json_date(),
       version: 5
     }
   end

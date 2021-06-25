@@ -10,7 +10,9 @@ defmodule MyAppWeb.RssController do
   def episode_json(conn, %{"episode_num" => episode_num}) do
     conn
     |> put_resp_content_type("application/json")
-    |> text(Jason.encode!(Episodes.get_episode_config(MavuUtils.to_int(episode_num))))
+    |> text(
+      Jason.encode!(Episodes.get_episode_config(MavuUtils.to_int(episode_num)), pretty: true)
+    )
   end
 
   def general_feed_xml(conn, _params) do

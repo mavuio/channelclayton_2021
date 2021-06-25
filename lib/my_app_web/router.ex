@@ -37,7 +37,7 @@ defmodule MyAppWeb.Router do
 
     get "/", StartpageController, :startpage
     get "/", RssController, :startpage
-    get "/episode/:episode_num", RssController, :episode_json
+    get "/episodes/:episode_num/episode.json", RssController, :episode_json
 
     get "/general_feed.xml", RssController, :general_feed_xml
     get "/episodes.rss", RssController, :episodes_rss

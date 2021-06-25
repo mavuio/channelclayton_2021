@@ -31,8 +31,9 @@ defmodule MyAppBe.EpisodeLive.EpisodeListComponent do
       columns: [
         # %{name: :id, label: "ID"},
         %{name: :num, label: "num"},
-        %{name: :duration, label: "duration"},
-        %{name: :title, label: "title"}
+        %{name: :title, label: "title"},
+        %{name: :pubdate, label: "publication date"},
+        %{name: :duration, label: "duration"}
         # %{name: :inserted_at, label: "created", type: :datetime}
       ],
       repo: MyApp.Repo,

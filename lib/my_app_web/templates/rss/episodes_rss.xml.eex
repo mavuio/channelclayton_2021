@@ -50,7 +50,7 @@
         <item>
             <title>Episode <%=  episode.num %><%= @version_str %> - <%= episode.title %> </title>
             <link><%= episode.link %></link>
-            <pubDate>Fri, 19 Jun 2020 12:14:00 +0200</pubDate>
+            <pubDate><%= ( episode.pubdate || NaiveDateTime.utc_now())|> rss_date() %></pubDate>
 
             <guid isPermaLink="false"><%= episode.link %></guid>
             <description>
@@ -82,5 +82,7 @@
             <itunes:duration><%= episode.duration %></itunes:duration>
         </item>
         <% end %>
+        <%= render("legacy_episodes_rss.xml") %>
+
     </channel>
 </rss>

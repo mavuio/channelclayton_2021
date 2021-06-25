@@ -62,6 +62,7 @@
         <%= f = form_for(@changeset, "#", [ as: :fdata, phx_change: :validate, phx_submit: :save, phx_target: "##{@id}"]) %>
 
         <%= input f, :num , label: "Num" %>
+        <%= input f, :pubdate , label: "Publication-Date" %>
 
         <%= input f, :season_id , label: "Season", using: :select, items: MyApp.Seasons.get_for_dropdown() %>
 

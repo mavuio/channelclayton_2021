@@ -32,6 +32,16 @@ defmodule MyAppWeb.FrontendHelpers do
     |> Calendar.strftime("%a, %d %b %Y %H:%M:%S %z")
   end
 
+  def json_date(nil), do: json_date(NaiveDateTime.utc_now())
+
+  def json_date(utc_date) do
+    utc_date
+    |> local_date()
+    |> DateTime.from_naive("Europe/Vienna")
+    |> pit(date <- {:ok, date})
+    |> Calendar.strftime("%a, %d %b %Y %H:%M:%S %z")
+  end
+
   def atom_date(utc_date) do
     utc_date
     |> local_date()
