@@ -5,3 +5,5 @@ wget --no-check-certificate -O episode18.json https://channelclayton.mavu.io/epi
 wget --no-check-certificate -O episode19.json https://channelclayton.mavu.io/episodes/19/episode.json
 wget --no-check-certificate -O episode20.json https://channelclayton.mavu.io/episodes/20/episode.json
 wget --no-check-certificate -O episode21.json https://channelclayton.mavu.io/episodes/21/episode.json
+
+ Episodes.get_episode(1) |> Episode.changeset(%{pubdate: "2020-06-01 10:00:00"}) |> Repo.update!()

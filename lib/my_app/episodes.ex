@@ -54,7 +54,7 @@ defmodule MyApp.Episodes do
           ),
         title: MyAppWeb.FrontendHelpers.snip("de", "/feed/general.title_textline")
       },
-      title: "Episode #{episode.num} - #{episode.title}",
+      title: "#{episode.num} - #{episode.title}",
       duration: episode.duration,
       subtitle: "n/a",
       link: episode.link,

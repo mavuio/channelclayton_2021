@@ -48,7 +48,7 @@
         <itunes:category text="Arts" />
         <%= for episode <- MyApp.Episodes.get_episodes() |> Enum.filter(&MavuUtils.present?(&1.duration))  do %>
         <item>
-            <title>Episode <%=  episode.num %><%= @version_str %> - <%= episode.title %> </title>
+            <title><%=  episode.num %><%= @version_str %> - <%= episode.title %> </title>
             <link><%= episode.link %></link>
             <pubDate><%= ( episode.pubdate || NaiveDateTime.utc_now())|> rss_date() %></pubDate>
 
@@ -75,8 +75,7 @@
                 length="1234567" type="audio/mpeg" />
             <itunes:title>Episode <%=  episode.num %><%= @version_str %> - <%= episode.title %> </itunes:title>
             <itunes:keywords></itunes:keywords>
-            <itunes:subtitle>Channel Clayton Episode <%=  episode.num %></itunes:subtitle>
-            <itunes:summary>Channel Clayton Episode <%=  episode.num %></itunes:summary>
+            <itunes:subtitle>Channel Clayton - Episode <%=  episode.num %></itunes:subtitle>
             <itunes:author><%= snip "de","/feed/general.author_textline" %></itunes:author>
             <itunes:explicit>no</itunes:explicit>
             <itunes:duration><%= episode.duration %></itunes:duration>
