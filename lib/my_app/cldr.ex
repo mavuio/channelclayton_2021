@@ -4,7 +4,7 @@ defmodule MyApp.Cldr do
     locales: ["de"],
     gettext: MyAppWeb.Gettext,
     data_dir: "./priv/cldr",
-    providers: [Cldr.Territory, Cldr.Number, Cldr.Calendar, Cldr.DateTime],
+    providers: [Cldr.Territory, Cldr.Calendar, Cldr.DateTime],
     otp_app: :my_app
 
   def langs do

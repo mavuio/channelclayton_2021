@@ -48,7 +48,7 @@ defmodule MyApp.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:ex_cldr, "~> 2.0"},
+      {:ex_cldr, "~> 2.33.0"},
       {:ex_cldr_territories, "~> 2.0"},
       {:ex_cldr_dates_times, "~> 2.0"},
       {:tzdata, "~> 1.0.1"},

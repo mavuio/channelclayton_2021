@@ -11,7 +11,7 @@ use Mix.Config
 # before starting your production server.
 
 config :my_app, MyAppWeb.Endpoint,
-  http: [:inet6, port: System.get_env("PORT") || 4009],
+  http: [:inet6, port: System.get_env("PORT") || 4005],
   url: [host: "channelclayton.mavu.io", scheme: "https", port: 443],
   cache_static_manifest: "priv/static/cache_manifest.json",
   debug_errors: false,
